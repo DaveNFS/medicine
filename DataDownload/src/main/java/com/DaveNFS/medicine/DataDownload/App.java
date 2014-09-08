@@ -9,6 +9,9 @@ public class App
     public static void main( String[] args )
     {
         Scraper webScraper = new Scraper();
-        webScraper.getDiseasesAndConditionsLinks("Z");
+
+        // webScraper.getDiseasesAndConditionsLinks("Z");
+        // webScraper.saveDiseaseAndConditions("Z");
+        webScraper.test2();
     }
 }
